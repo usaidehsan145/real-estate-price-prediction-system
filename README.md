@@ -44,9 +44,17 @@ To make predictions:
 2. Standardize user inputs representing property features.
 3. Feed standardized inputs into the model for predicting the property price.
 
+## Streamlit App
+
+A Streamlit app (`streamlit.py`) is provided to interactively input property features and get real-time predictions. To run the app:
+
+1. Install Streamlit using `pip install streamlit`.
+2. Execute the app script using `streamlit run streamlit.py`.
+3. Open the provided URL to access the Streamlit app.
+
 ## Running the Code
 
-1. Ensure required libraries are installed: `pickle`, `pandas`, `numpy`, and `xgboost`.
+1. Ensure required libraries are installed: `pickle`, `pandas`, `numpy`, `xgboost`, and `streamlit`.
 2. Execute the code in the provided notebook or script.
 3. Adjust the input data structure in the prediction section to match the features used during training.
 
