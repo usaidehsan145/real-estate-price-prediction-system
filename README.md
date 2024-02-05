@@ -46,7 +46,7 @@ To make predictions:
 
 ## Streamlit App
 
-A Streamlit app (`streamlit.py`) is provided to interactively input property features and get real-time predictions. To run the app:
+A Streamlit app (`app.py`) is provided to interactively input property features and get real-time predictions. To run the app:
 
 1. Install Streamlit using `pip install streamlit`.
 2. Execute the app script using `streamlit run streamlit.py`.
